@@ -20,31 +20,17 @@ p {
 
 
 #welcome {
-    position: absolute;
-    width: 632px;
-    height: 182px;
-    left: 406px;
-    top: 100px;
     font-size: 144px;
     line-height: 182px;
     color: #F0F6FF;
 }
 
 #littleInfo {
-    position: absolute;
-    width: 573px;
-    height: 38px;
-    left: 438px;
-    top: 270px;
+
     font-size: 30px;
     line-height: 38px;
     color: #98C3EB;
 }
 
 #start {
-    position: absolute;
-    width: 255px;
-    height: 255px;
-    left: 597px;
-    top: 347px;
 }
