@@ -26,4 +26,22 @@ p {
     color: #98C3EB;
 }
 
+#startWrapper{
+    margin-top: 5rem;
+}
 
+#start{
+    position: absolute;
+    top: 225px;
+    left: 911px;
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 43px;
+    /* identical to box height */
+    color: #03466B;
+    text-decoration: none;
+}
+
+#start:hover{
+    color: #F0F6FF;
+}
