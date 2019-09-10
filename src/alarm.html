@@ -15,89 +15,107 @@
   </head>
   <body>
 		<div class="">
-			<img src="../../assets/pearcomposition.png" alt="background" class="bg-image">
+			<img alt="background" id="avocado" class="bg-image active" src="../../assets/inactive/avocado_inactive.gif">
+			<img alt="background" id="monster" class="bg-image" src="../../assets/inactive/monster_inactive.gif">
+			<img alt="background" id="plant" class="bg-image " src="../../assets/inactive/plant_inactive.gif">
+			<img alt="background" id="avocado-active" class="bg-image " src="../../assets/active/avocado_active.gif">
+			<img alt="background" id="monster-active" class="bg-image " src="../../assets/active/monster_active.gif">
+			<img alt="background" id="plant-active" class="bg-image " src="../../assets/active/plant_active.gif">
 			<div class="container">
 				<div class="row">
-					<div class="col"></div>
 					<div class="col">
-						<p class="text-center set-time-text pt-5 text-white">Alarm Set For</p>
-						<p class="text-center time-display time-display-text text-white" id="time-text">00:00</p>
+						<p class="mt-1 text-center set-time-text pt-5 text-white active title">Alarm Set For 
+							<div class="time-display display-time-text text-white text-center active" id="time-text">
+									00:00
+							</div></p>
+						<p class="mt-1 text-center set-time-text pt-5 text-white no-show alarm-ring">WAKE UP</p>
 					</div>
-					<div class="col"></div>
 				</div>
 			<div class="row">
 				<div class="container">
 					<div class="row">
-						<div class="">
-										<svg width="500px" height="500px" viewBox="0 0 200 200" class="clock-face">
-												<g>
-														<circle id="circle" style="stroke: #FFF; stroke-width: 1px; fill:rgba(0, 0, 0, 0)" cx="100" cy="100" r="80"></circle>
-												</g>
-												<g>
-														<line x1="100" y1="100" x2="100" y2="55" transform="rotate(80 100 100)" style="stroke-width: 3px; stroke: #fffbf9;" id="hourhand">
-																<animatetransform attributeName="transform"
-																									attributeType="XML"
-																									type="rotate"
-																									dur="43200s"
-																									repeatCount="indefinite"/>
-														</line>
-														<line x1="100" y1="100" x2="100" y2="40" style="stroke-width: 4px; stroke: #fdfdfd;" id="minutehand">
-																<animatetransform attributeName="transform"
-																									attributeType="XML"
-																									type="rotate"
-																									dur="3600s"
-																									repeatCount="indefinite"/>
-														</line>
-														<line x1="100" y1="100" x2="100" y2="30" style="stroke-width: 2px; stroke: #C1EFED;" id="secondhand">
-																<animatetransform attributeName="transform"
-																									attributeType="XML"
-																									type="rotate"
-																									dur="60s"
-																									repeatCount="indefinite"/>
-														</line>
-												</g>
-												<circle id="center" style="fill:#128A86; stroke: #C1EFED; stroke-width: 2px;" cx="100" cy="100" r="3"></circle>
-										</svg>
-								</div>
-						</div>
+						<svg width="500px" height="500px" viewBox="0 0 200 200" class="clock-face">
+								<g>
+										<circle id="circle" style="stroke: #FFF; stroke-width: 1px; fill:rgba(0, 0, 0, 0)" cx="100" cy="100" r="80"></circle>
+								</g>
+								<g>
+										<line x1="100" y1="100" x2="100" y2="55" transform="rotate(80 100 100)" style="stroke-width: 3px; stroke: #fffbf9;" id="hourhand">
+												<animatetransform attributeName="transform"
+																					attributeType="XML"
+																					type="rotate"
+																					dur="43200s"
+																					repeatCount="indefinite"/>
+										</line>
+										<line x1="100" y1="100" x2="100" y2="40" style="stroke-width: 4px; stroke: #fdfdfd;" id="minutehand">
+												<animatetransform attributeName="transform"
+																					attributeType="XML"
+																					type="rotate"
+																					dur="3600s"
+																					repeatCount="indefinite"/>
+										</line>
+										<line x1="100" y1="100" x2="100" y2="30" style="stroke-width: 2px; stroke: #C1EFED;" id="secondhand">
+												<animatetransform attributeName="transform"
+																					attributeType="XML"
+																					type="rotate"
+																					dur="60s"
+																					repeatCount="indefinite"/>
+										</line>
+								</g>
+								<circle id="center" style="fill:#128A86; stroke: #C1EFED; stroke-width: 2px;" cx="100" cy="100" r="3"></circle>
+						</svg>
+					</div>
 				</div>
 			</div>
 		<!-- Settings Panel -->
-			<div class="bg-light py-5 settings-panel" >
+			<div class="py-4 settings-panel active" >
 					<div class="container">
 							<div class="row">
 									<div class="col-sm-4">
-											<div class="dropdown">
-													<button class="btn dropdown-toggle own-purple-accent" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-														Choose Theme
-													</button>
-													<div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-														<a class="dropdown-item" href="#">Action</a>
-														<a class="dropdown-item" href="#">Another action</a>
-														<a class="dropdown-item" href="#">Something else here</a>
-													</div>
-												</div>
+										<h5 class="text-black text-center op-1">Choose Theme:</h5>
 									</div>
 									<div class="col-sm-4">
-											<div class="dropdown">
-													<button class="btn dropdown-toggle own-purple-accent" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-														Choose Track
-													</button>
-													<div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-														<a class="dropdown-item" href="#">Track 1</a>
-														<a class="dropdown-item" href="#">Track 2</a>
-														<a class="dropdown-item" href="#">Track 3</a>
-													</div>
-												</div>
+										<h5 class="text-center text-black op-1">Set Time:</h5>
+										
 									</div>
 									<div class="col-sm-4">
-										<p class="text-center">Time:</p>
+										<h5 class="text-black text-center op-1">Choose Track:</h5>
+									</div>
+							</div>
+							<div class="row">
+								<div class="col">
+										<div class="dropdown text-center">
+												<button class="btn dropdown-toggle text-black" type="button" id="themeButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+													Avocado
+												</button>
+												<div class="dropdown-menu" aria-labelledby="dropdownMenuButton" id="themeMenuButton">
+													<a class="dropdown-item" value="avocado" href="#">Avocado</a>
+													<a class="dropdown-item" value="monster" href="#">Monster</a>
+													<a class="dropdown-item" value="plant" href="#">Plant</a>
+												</div>
+											</div>
+								</div>
+								<div class="col">
 										<div class="text-center">
 												<input type="time" name="alarm_time" id="time-picker">
 										</div>
-									</div>
+								</div>
+								<div class="col">
+										<div class="dropdown text-center">
+												<button class="btn dropdown-toggle text-black" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+													Track 1
+												</button>
+												<div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+													<a class="dropdown-item" href="#">Track 1</a>
+													<a class="dropdown-item" href="#">Track 2</a>
+													<a class="dropdown-item" href="#">Track 3</a>
+												</div>
+											</div>
+								</div>
 							</div>
 					</div>
+				</div>
+				<div class="snooze">
+					<button type="button" class="btn btn-lg btn-danger text-center py-2 px-5 snooze-button">STOP</button>
 				</div>
 			</div>
 		</div>

@@ -6,9 +6,10 @@ body{
 .clock-face{
     position: absolute;
     margin-top: 1rem;
-    left: 690px;
-    top: 220px;
+    left: 710px;
+    top: 270px;
 }
+
 
 .own-purple{
     color: #ccbbe5;
@@ -19,13 +20,17 @@ body{
 }
 
 .set-time-text{
-    font-size: 20px;
+    font-size: 40px;
     line-height: 25px;
+    display: none;
 }
 
-.time-display-text{
-    font-size: 65px;
-    line-height: 82px;
+.display-time-text{
+    font-size: 60px;
+}
+
+.alarm-ring{
+    font-size: 80px;
 }
 
 .bg-image{
@@ -35,10 +40,41 @@ body{
     height: 1080px;
     width: auto;
     z-index: -1;
+    display: none;
 }
+
 
 .settings-panel{
     position: absolute;
     top: 750px;
     width: 60%;
+    background: rgba(255,255,255,0.3);
+    border-radius: 15px;
+    display: none;
+}
+
+.snooze{
+    position: absolute;
+    top: 800px;
+    left: 890px;
+    display: none;
+}
+
+input{
+    border-radius: 15px;
+    outline: none;
+    padding: 4px;
+}
+
+.op-1{
+    color: #231841;
+    text-shadow: 0px 2px 22px rgba(0, 0, 0, 0.1);
+}
+
+.no-show{
+    display: none;
+}
+
+.active{
+    display: block;
 }
