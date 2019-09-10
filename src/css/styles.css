@@ -24,3 +24,34 @@
     background-color: yellow;
     margin-bottom: 10px;
 }
+.container-fluid {
+    position: absolute;
+    min-width: 100vw;
+    min-height: 100vh;
+    left: 0px;
+    top: 0px;
+    background: radial-gradient(735.94px at 50% 50%, #0E2256 0%, #20315E 100%);
+}
+
+p {
+    font-family: 'Varela Round', sans-serif;
+    color: white;
+}
+
+
+
+#welcome {
+    font-size: 144px;
+    line-height: 182px;
+    color: #F0F6FF;
+}
+
+#littleInfo {
+
+    font-size: 30px;
+    line-height: 38px;
+    color: #98C3EB;
+}
+
+#start {
+}
