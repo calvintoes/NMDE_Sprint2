@@ -1,0 +1,44 @@
+body{
+    font-family: 'Varela Round', sans-serif;
+    background-color: white;
+}
+
+.clock-face{
+    position: absolute;
+    margin-top: 1rem;
+    left: 690px;
+    top: 220px;
+}
+
+.own-purple{
+    color: #ccbbe5;
+}
+
+.own-purple-accent{
+    color: #b69ddb;
+}
+
+.set-time-text{
+    font-size: 20px;
+    line-height: 25px;
+}
+
+.time-display-text{
+    font-size: 65px;
+    line-height: 82px;
+}
+
+.bg-image{
+    position: absolute;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 1080px;
+    width: auto;
+    z-index: -1;
+}
+
+.settings-panel{
+    position: absolute;
+    top: 750px;
+    width: 60%;
+}
