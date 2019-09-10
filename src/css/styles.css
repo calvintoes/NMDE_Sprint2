@@ -1,57 +1,29 @@
 * {
     margin: 0;
     padding: 0;
-
 }
 
-.container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.title {
-    background-color: blue;
-    margin-bottom: 10px;
-}
-
-.info {
-    background-color: red;
-    margin-bottom: 10px;
-}
-
-.theButton {
-    background-color: yellow;
-    margin-bottom: 10px;
-}
 .container-fluid {
-    position: absolute;
-    min-width: 100vw;
+    position:absolute;
     min-height: 100vh;
-    left: 0px;
-    top: 0px;
-    background: radial-gradient(735.94px at 50% 50%, #0E2256 0%, #20315E 100%);
 }
 
 p {
     font-family: 'Varela Round', sans-serif;
-    color: white;
 }
 
-
+.margin{
+    margin-top: 135px;
+}
 
 #welcome {
-    font-size: 144px;
-    line-height: 182px;
+    font-size: 8rem;
     color: #F0F6FF;
 }
 
 #littleInfo {
-
-    font-size: 30px;
-    line-height: 38px;
+    font-size: 1.5rem;
     color: #98C3EB;
 }
 
-#start {
-}
+
